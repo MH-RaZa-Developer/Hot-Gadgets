@@ -1,0 +1,61 @@
+carousel{
+    padding:20px 40px;
+}
+.carousel-item h1{
+    font-size:36px;
+    font-weight: bold;
+    color:#000;
+}
+.carousel-item p{
+    font-size: 18px;
+    color:grey;
+}
+.buy-button{
+    background:#000;
+    color:#fff;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    text-transform: capitalize;
+}
+.heading h2{
+    font-size:42px;
+    color:lightslategrey;
+    font-weight: bold;
+}
+.heading a{
+    font-size:24px;
+    color:#ffd000be;
+    font-weight: bold;
+}
+.heading a:hover{
+    text-decoration: none;
+}
+.card{
+    border:none;
+    box-shadow: 10px 10px 10px lightgray;
+}
+.heading-cat hr{
+    border-bottom:10px solid yellow;
+    width:15%;
+}
+.Categores .cat1, .cat2, .cat3 {
+    border: none;
+    box-shadow: 10px 10px 10px rgb(128, 127, 127);
+    padding: 15px 15px;
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.contact{
+    background:#8080807e;
+    padding:60px;
+}
+
+@media all and (max-width:420px){
+    .Categores .cat1,.cat2,.cat3{
+        margin:auto;
+        margin-top:15px;
+    }
+}
